@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 570vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+header{
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+#head{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    margin-top: 50px;
+    background-color: white;
+    color: gray;
+}
+main{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   margin-top: 100px;
+}
+#main{
+    width: 100%;
+    height: 600px;
+}
+.head1-1{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head1-2{
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+.head1-3{
+    width: 30%;
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head1-4{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head1-7{
+    font-size: large;
+    font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-seri;
+    color: gray;
+}
+.head2-1{
+    min-width:6%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-family: -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-seri;
+}
+.head2-2{
+    min-width: 6%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:-apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-seri;
+    color: black;
+}
+button{
+    color: gray;
+}
+svg{
+    color: gray;
+}
+#top{
+    width: 100%;
+    height : 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#zurag{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#topp{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+h6{
+    color: white;
+    font-size: 15px;
+    font-family:  -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-seri;
+}
+.gray{
+    color: gray;
+    font-size: 15px;
+}
+.white{
+    color: white;
+    font-size: 20px;
+}
+.white1{
+    color: white;
+    font-size:15px;
+}
+a{
+    color: white;
+}
+#top1{
+    width: 60%;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.top2{
+    width: 60%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family:  -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-seri;
+}
+#top3{
+    width: 60%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+#top4{
+    width:60%;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family:  -apple-system,BlinkMacSystemFont,San Francisco,Helvetica Neue,Helvetica,Ubuntu,Roboto,Noto,Segoe UI,Arial,sans-seri;
+}
+#bottom{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.bottom1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+.bottom2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+.bottom3{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.footer1{
+    width: 33%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+#footer2{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+}
+/* hover */
+svg:hover{
+    cursor: pointer;
+}
+a:hover{
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    color: black;
+}
+.head1-2:hover{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.head1-7:hover{
+    cursor: pointer;
+    color: black;
+}
+.head2-1:hover{
+    cursor: pointer;
+    color: black;
+}
+img:hover{
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+    
+}
