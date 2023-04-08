@@ -231,8 +231,6 @@ a{
     align-items: center;
     justify-content: center;
 }
-img{
-}
 /* hover */
 svg:hover{
     cursor: pointer;
@@ -261,5 +259,5 @@ img:hover{
     cursor: -moz-zoom-in; 
     cursor: -webkit-zoom-in; 
     cursor: zoom-in;
-    
+
 }
